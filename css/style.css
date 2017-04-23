@@ -6,8 +6,46 @@
   border: none;
   outline: none;
   font-size: 100%;
+  text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Robot Slab', 'Century Gothic', sans-serif;
+  font-family: 'Roboto Slab', 'Century Gothic', sans-serif;
 }
 
 img, video { width: 100%; }
+
+header {
+  width: 100%;
+  height: 100vh;
+}
+
+header nav {
+  float: left;
+  width: 100%;
+  padding: 0 6% 0 6%;
+  background-image: linear-gradient(to right, #141E30, #243B55);
+}
+
+nav .logo{
+  float: left;
+  color: #fff;
+  margin-top: 5px;
+}
+
+nav ul.menu {
+  float: right;
+}
+
+nav ul.menu li{
+  height: 100%;
+  padding: 18px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul.menu li.menu-dropdown ul{
+  display: none;
+}
