@@ -1,5 +1,7 @@
+/* -------- Fontes importadas --------- */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
+/* RESET do Estilo*/
 * {
   margin: 0;
   padding: 0;
@@ -13,15 +15,18 @@
 
 img, video { width: 100%; }
 
+/* Cabeçalho */
+
 header {
   width: 100%;
   height: 100vh;
 }
 
+/* Barra de navegação */
 header nav {
   float: left;
   width: 100%;
-  padding: 0 6% 0 6%;
+  padding: 0 7% 0 7%;
   background-image: linear-gradient(to right, #141E30, #243B55);
 }
 
@@ -29,23 +34,61 @@ nav .logo{
   float: left;
   color: #fff;
   margin-top: 5px;
+  cursor: pointer;
 }
 
 nav ul.menu {
   float: right;
+  list-style: none;
 }
 
+/* --------------------------
+  | Barra de navegação |
+    |-- Menu
+   -------------------------- */
 nav ul.menu li{
   height: 100%;
   padding: 18px;
   cursor: pointer;
+  position: relative;
   display: inline-block;
+}
+
+nav ul.menu li:hover {
+  background-color: #3e4d5e;
+  -webkit-transition: background-color .2s ease-in;
+  transition: background-color .2s ease-in;
 }
 
 nav ul li a {
   color: #fff;
 }
 
+/* --------------------------
+  | Barra de navegação |
+    |-- Menu
+       |-- Menu Dropdown
+   -------------------------- */
+
 nav ul.menu li.menu-dropdown ul{
-  display: none;
+  opacity: 0;
+  z-index: 99;
+  visibility: hidden;
+  background-color: #243B55;
+  position: absolute;
+  top: 57.2px;
+  right: 0;
 }
+nav ul.menu li.menu-dropdown ul li {
+  text-align: center;
+  padding: 18px;
+  width: 150px;
+}
+/* Efeito hover nos itens do menu*/
+nav ul.menu li.menu-dropdown:hover ul {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity .4s ease;
+  transition: opacity .4s ease;
+}
+/* ---------- Fim menu Dropdown ---------- */
