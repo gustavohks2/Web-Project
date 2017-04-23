@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 100%;
+  box-sizing: border-box;
+  font-family: 'Robot Slab', 'Century Gothic', sans-serif;
+}
+
+img, video { width: 100%; }
