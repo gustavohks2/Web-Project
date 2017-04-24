@@ -1,5 +1,7 @@
 /* -------- Fontes importadas --------- */
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
 
 /* RESET do Estilo*/
 * {
@@ -26,9 +28,10 @@ header {
 header nav {
   float: left;
   width: 100%;
+  z-index: 98;
   opacity: 0.9;
-  padding: 0 7% 0 7%;
   position: fixed;
+  padding: 0 7% 0 7%;
   background-image: linear-gradient(to right, #141E30, #243B55);
 }
 
@@ -102,8 +105,32 @@ nav ul.menu li.menu-dropdown:hover ul {
 /* ---------- Fim menu Dropdown ---------- */
 
 /* ----- Hero image dentro do header ----- */
-header .hero-image-header {
+.hero-image-header {
   width: 100%;
   height: 100%;
+  position: relative;
+  opacity: 0.85;
   background: url('../img/estrada.jpg') no-repeat center/ cover;
+}
+
+.heading-container {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 46%;
+  left: 50%;
+}
+
+.heading-container h1 {
+  color: #FFF;
+  font-size: 6em;
+  line-height: 100px;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.heading-container h2 {
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
 }
