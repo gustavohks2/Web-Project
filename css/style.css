@@ -134,3 +134,18 @@ nav ul.menu li.menu-dropdown:hover ul {
   text-align: center;
   font-family: 'Amatic SC', cursive;
 }
+
+/* ------------ Main Section -------------- */
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding: 60px 7% 0 7%;
+}
+
+main div.item-column {
+  float: left;
+  height: 80vh;
+  width: 33.33333333333333%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+}
