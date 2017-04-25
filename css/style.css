@@ -145,7 +145,16 @@ main {
 
 main div.item-column {
   float: left;
-  height: 80vh;
+  padding: 0 14px 0 14px;
   width: 33.33333333333333%;
-  border: 2px solid rgba(0, 0, 0, 0.1);
 }
+
+.item-column .item { width: 100%; height: 210px; }
+.item-column h3 { text-align: center; }
+.item-column p { text-align: justify; }
+
+/* -------- Imagens Itens -----------*/
+
+.brasil { background: url("../img/brazil.png") no-repeat center center/ 210px}
+.estrada { background: url("../img/road.png") no-repeat center center/ 210px}
+.viajem { background: url("../img/travel.png") no-repeat center center/ 210px}
