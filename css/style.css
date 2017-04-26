@@ -142,8 +142,7 @@ nav ul.menu li.menu-dropdown:hover ul {
 
 main {
   width: 100%;
-  height: 100vh;
-  padding: 60px 7% 0 7%;
+  padding: 60px 7% 60px 7%;
 }
 
 main div.item-column {
@@ -152,12 +151,13 @@ main div.item-column {
   width: 33.33333333333333%;
 }
 
-.item-column .item { width: 100%; height: 210px; }
-.item-column h3 { text-align: center; }
-.item-column p { text-align: justify; }
+/* Itens Brasil, Estrada, Viajem */
+.item-column .item { width: 100%; height: 190px; }
+.item-column h3 { text-align: center; margin-top: 15px; font-size: 1.5em; color: #263238; font-family: 'Amatic SC', cursive;}
+.item-column p { text-align: justify; margin-top: 15px; font-size: 0.9em; line-height: 1.6em; color: #37474F;}
 
 /* -------- Imagens Itens -----------*/
 
-.brasil { background: url("../img/brazil.png") no-repeat center center/ 210px}
-.estrada { background: url("../img/road.png") no-repeat center center/ 210px}
-.viajem { background: url("../img/travel.png") no-repeat center center/ 210px}
+.brasil { background: url("../img/brazil.png") no-repeat center center/ 190px}
+.estrada { background: url("../img/road.png") no-repeat center center/ 190px}
+.viajem { background: url("../img/travel.png") no-repeat center center/ 190px}
