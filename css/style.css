@@ -166,5 +166,31 @@ main div.item-column {
 /* ------------- Footer -------------*/
 
 footer {
-  
+  float: left;
+  width: 100%;
+  background-color: #455A64;
+}
+
+footer .section-1, footer .section-2, footer .section-3 {
+  float: left;
+  width: 33.33333333333333%;
+}
+
+.section-1 ul, .section-2 ul, .section-3 ul {
+  list-style: none;
+  text-align: center;
+  padding-top: 50px;
+  line-height: 2em;
+}
+
+.section-1 ul li a, .section-2 ul li a, .section-3 ul li a {
+  font-size: 0.9em;
+  color: white;
+}
+
+footer div.copyright {
+  clear: left;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0px 40px 0px;
 }
