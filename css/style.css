@@ -111,6 +111,7 @@ nav ul.menu li.menu-dropdown:hover ul {
   position: relative;
   opacity: 0.85;
   background: url('../img/estrada.jpg') no-repeat center/ cover;
+  background-attachment: fixed;
 }
 
 .heading-container {
