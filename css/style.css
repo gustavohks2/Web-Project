@@ -117,8 +117,8 @@ nav ul.menu li.menu-dropdown:hover ul {
 .heading-container {
   transform: translate(-50%, -50%);
   position: absolute;
-  top: 46%;
   left: 50%;
+  top: 46%;
 }
 
 .heading-container h1 {
@@ -141,8 +141,9 @@ nav ul.menu li.menu-dropdown:hover ul {
 /* ------------ Main Section -------------- */
 
 main {
+  float: left;
   width: 100%;
-  padding: 60px 7% 60px 7%;
+  padding: 80px 7% 80px 7%;
 }
 
 main div.item-column {
@@ -161,3 +162,9 @@ main div.item-column {
 .brasil { background: url("../img/brazil.png") no-repeat center center/ 190px}
 .estrada { background: url("../img/road.png") no-repeat center center/ 190px}
 .viajem { background: url("../img/travel.png") no-repeat center center/ 190px}
+
+/* ------------- Footer -------------*/
+
+footer {
+  
+}
