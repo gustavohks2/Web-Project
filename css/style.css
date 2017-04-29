@@ -1,4 +1,5 @@
 /* -------- Fontes importadas --------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700');
@@ -173,21 +174,22 @@ footer {
   background-color: #455A64;
 }
 
-footer .section-1, footer .section-2, footer .section-3 {
+footer .section {
   float: left;
   width: 33.33333333333333%;
 }
 
-.section-1 ul, .section-2 ul, .section-3 ul {
+.section ul {
   list-style: none;
   text-align: center;
   padding-top: 50px;
   line-height: 2em;
 }
 
-.section-1 ul li a, .section-2 ul li a, .section-3 ul li a {
-  font-size: 0.9em;
+.section ul li a {
   color: white;
+  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif;
 }
 
 footer div.copyright {
