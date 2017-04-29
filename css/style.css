@@ -171,7 +171,7 @@ main div.item-column {
 footer {
   float: left;
   width: 100%;
-  background: url("../img/long-road.jpg") no-repeat fixed center center/cover;
+  background: url("../img/long-road.jpg") no-repeat fixed top/cover;
   font-family: 'Open Sans', sans-serif;
 }
 
