@@ -147,6 +147,7 @@ main {
   float: left;
   width: 100%;
   padding: 80px 7% 80px 7%;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1); /* Linha de divisão entre conteúdos */
 }
 
 main div.item-column {
@@ -165,14 +166,6 @@ main div.item-column {
 .brasil { background: url("../img/brazil.png") no-repeat center center/ 190px}
 .estrada { background: url("../img/road.png") no-repeat center center/ 190px}
 .viajem { background: url("../img/travel.png") no-repeat center center/ 190px}
-
-/* --------- Linha de divisão --------*/
-
-div.line-division {
-  width: 100%;
-  float: left;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-}
 
 /* ---------- Section Fotos Polaroid ---------*/
 
