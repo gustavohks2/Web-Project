@@ -166,6 +166,14 @@ main div.item-column {
 .estrada { background: url("../img/road.png") no-repeat center center/ 190px}
 .viajem { background: url("../img/travel.png") no-repeat center center/ 190px}
 
+/* ---------- Fotos Polaroid ---------*/
+
+div.line-division {
+  width: 100%;
+  float: left;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
 /* ------------- Footer -------------*/
 
 footer {
