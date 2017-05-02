@@ -166,12 +166,20 @@ main div.item-column {
 .estrada { background: url("../img/road.png") no-repeat center center/ 190px}
 .viajem { background: url("../img/travel.png") no-repeat center center/ 190px}
 
-/* ---------- Fotos Polaroid ---------*/
+/* --------- Linha de divisão --------*/
 
 div.line-division {
   width: 100%;
   float: left;
   border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- Section Fotos Polaroid ---------*/
+
+.polaroid-photos {
+  float: left;
+  width: 100%;
+  padding: 80px 7% 80px 7%;
 }
 
 /* ------------- Footer -------------*/
