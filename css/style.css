@@ -175,6 +175,20 @@ main div.item-column {
   padding: 80px 7% 80px 7%;
 }
 
+.polaroid {
+  float: left;
+  width: 33.33333333333333%;
+  padding: 10px 14px 0 14px;
+  border: 2px solid red;
+}
+
+/*.zoom-container {
+
+}
+
+.polaroid-photos .polaroid .zoom-container .foto{
+
+}*/
 /* ------------- Footer -------------*/
 
 footer {
