@@ -177,11 +177,15 @@ main div.item-column {
 
 .polaroid {
   float: left;
-  width: 33.33333333333333%;
+  width: 29%;
+  margin-right: 6.5%;
   padding: 10px 14px 0 14px;
   border: 2px solid red;
 }
 
+.polaroid:nth-child(3) {
+  margin-right: 0;
+}
 /*.zoom-container {
 
 }
