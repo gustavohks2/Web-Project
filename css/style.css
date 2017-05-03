@@ -194,6 +194,7 @@ main div.item-column {
 .polaroid:nth-child(3) { transform: rotate(10deg); margin-right: 0;}
 
 /* --- Conteiner para zoom da foto  ---*/
+
 .zoom-container {
   width: 100%;
   height: 70%;
@@ -205,6 +206,10 @@ main div.item-column {
   width: 100%;
   height: 100%;
 }
+
+.aviao { background: url("../img/airplane.jpg") no-repeat center / cover}
+.taxi { background: url("../img/taxi.jpg") no-repeat center / cover}
+.mapa { background: url("../img/map.jpg") no-repeat center / cover}
 
 /* ------------- Footer -------------*/
 
